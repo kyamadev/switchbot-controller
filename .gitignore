@@ -1,0 +1,33 @@
+# Python関連ファイル
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+ 
+# Django関連ファイル
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+*.migrations/
+media/
+staticfiles/
+static/
+ 
+# VSCodeやIDEの設定ファイル
+.vscode/
+.idea/
+ 
+# MacOS関連
+.DS_Store
+
+# 忘れがちなファイル
+*.lock
